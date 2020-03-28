@@ -1,0 +1,12 @@
+deploy_dev:
+    stage: deploy
+    tags:
+        - dev
+    script:
+        - rsync -ua $CI_PROJECT_DIR/* $DEV_PROJECT_DIR/
+        - chown -R tiroxin:webusers $DEV_PROJECT_DIR
+    environment:
+        name: development
+        url: https://dev-tiroxin.mdv.pw
+    only:
+        - dev

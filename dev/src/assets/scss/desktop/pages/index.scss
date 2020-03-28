@@ -1,0 +1,49 @@
+.section {
+  position: relative;
+}
+
+.fp-tableCell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// .title {
+//   font-size: 38px;
+//   opacity: 0;
+//   transform: translate3d(0, 150%, 0);
+//   transition: all 2.3s ease-out;
+// }
+
+// .title.fadeInUp {
+//   opacity: 1;
+//   transform: translate3d(0, 0, 0);
+// }
+
+// .image {
+//   &-1 {
+//     position: absolute;
+//     left: 20%;
+//     top: 20%;
+//     opacity: 0;
+//     transition: all 3s ease;
+//     opacity: 0;
+//     transform: translate3d(0, 2000px, 0);
+//   }
+//   &-2 {
+//     position: absolute;
+//     left: 10%;
+//     top: 50%;
+//     opacity: 0;
+//     transition: all 2s ease;
+//     opacity: 0;
+//     transform: translate3d(0, 2000px, 0);
+//   }
+
+// }
+
+// .fadeInUpBig {
+// opacity: 1;
+//     transform: translate3d(0, 0, 0);
+// }
+
